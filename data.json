@@ -1,0 +1,544 @@
+{
+  "products": [
+
+    {
+      "id": 1,
+      "name": "VICIVISION",
+      "subtitle": "About VICIVISION",
+      "description": "VICIVISION manufactures optical, non-contact shaft measuring machines.\nWe serve a wide range of industries.\nHigh speed measurement improves productivity.",
+      "image": "/images/partner3.webp",
+      "features": [],
+      "related": [6,7,8,9,10,11]
+    },
+
+    {
+      "id": 2,
+      "name": "TESA",
+      "subtitle": "About TESA",
+      "description": "TESA is a leading manufacturer of precision measuring instruments.\nGlobal market leader in height gauges.\nReliable and durable instruments.",
+      "image": "/images/partner4.webp",
+      "features": [],
+      "related": [12,13,14,15,16,17,18,19,20,21,22,23]
+    },
+
+    {
+      "id": 3,
+      "name": "ENCY Robot",
+      "subtitle": "ENCY Robot",
+      "image": "/images/partner5.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,31,32,33,34,35]
+    },
+
+    {
+      "id": 4,
+      "name": "Asanamu Giken Go",
+      "subtitle": "Asanamu Giken Go",
+      "image": "/images/partner6.webp",
+      "features": [],
+      "related": [36,37,38]
+    },
+
+    {
+      "id": 5,
+      "name": "Air Dryers",
+      "subtitle": "About Air Dryers",
+      "description": "These products are perfectly designed by a team of our highly talented personnel making use of supreme class raw material.\nTypical application of these air dryers is along with CMMs and Machine Tools.\nThe entire array of products is widely noticed for their high performance, less maintenance, reliability, corrosion resistance and longer service life.",
+      "image": "/images/partner2.webp",
+      "features": [],
+      "related": [39]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": 6,
+      "name": "Prima Series",
+      "subtitle": "Prima Series",
+      "description": "The optical measuring machine for all CNC lathes.\nSimplicity allows each operator to control the production process at any time.\nThe aim is to provide high measurement standards in a new competitive and compact machine.\nDetect hundreds of measurements in seconds on all turned and ground parts.\nThe measuring fields are from 60 to 140 mm diameter and 300 to 600 mm length.\n\nStatic measures:\n- diameter\n- length\n- angle\n- radius\n- chamfer\n\nDynamic measures:\n- coaxiality\n- runout\n- circularity\n- cylindricity\n- taper",
+      "image": "/images/M609 Techno HD.webp",
+      "features": [],
+      "related": [1,7,8]
+    },
+
+    {
+      "id": 7,
+      "name": "Techno Series",
+      "subtitle": "Techno Series",
+      "description": "Optical measuring devices for micro parts, dental implants and watch components.\nHigh resolution detection of smallest details.\nSupports coaxiality, cylindricity, roundness and thread measurements.",
+      "image": "/images/Techno-Series.webp",
+      "features": [],
+      "related": [1,6,8]
+    },
+
+    {
+      "id": 8,
+      "name": "X Series",
+      "subtitle": "X Series",
+      "description": "Advanced optical measuring devices.\nHigh accuracy for micro parts.\nUsed in dental and watch industry.",
+      "image": "/images/vicivision.webp",
+      "features": [],
+      "related": [1,6,7]
+    },
+    {
+      "id": 9,
+      "name": "",
+      "subtitle": "",
+      "image": "/images/2.webp",
+      "features": [],
+      "related": [1,7,8]
+    },
+
+    {
+      "id": 10,
+      "name": "",
+      "subtitle": "",
+      "image": "/images/3.webp",
+      "features": [],
+      "related": [1,6,8]
+    },
+
+    {
+      "id": 11,
+      "name": "",
+      "subtitle": "",
+      "image": "/images/4.webp",
+      "features": [],
+      "related": [1,6,7]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": 12,
+      "name": "1D Height Gauges",
+      "subtitle": "Machine Type",
+      "description": "TESA 1D height gauge used in workshops.\nProvides quick measurements with high accuracy.\nReliable optical reading system.",
+      "image": "/images/1D-Height-Gauges.webp",
+      "features": [],
+      "related": [10,11,12,13,14,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 13,
+      "name": "2D Height Gauges",
+      "subtitle": "Machine Type",
+      "description": "High-end instrument for 1D and 2D measurements.\nRobust design ensures precision and repeatability.\nAdvanced measurement functions included.",
+      "image": "/images/2D-Height-Gauges.webp",
+      "features": [],
+      "related": [9,11,12,13,14,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 14,
+      "name": "Bluetooth Connectivity",
+      "subtitle": "Machine Type",
+      "description": "Wireless Bluetooth system for connecting instruments.\nData can be collected, analyzed and stored easily.\nEnsures perfect traceability.",
+      "image": "/images/Bluetooth-connectivity.webp",
+      "features": [],
+      "related": [9,10,12,13,14,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 15,
+      "name": "Digital Caliper",
+      "subtitle": "Machine Type",
+      "description": "Durable measuring tool for harsh environments.\nResistant to oil and water.\nEnsures long life and high accuracy.",
+      "image": "/images/Digital-Caliper.webp",
+      "features": [],
+      "related": [9,10,11,13,14,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 16,
+      "name": "Digital Display Unit",
+      "subtitle": "Machine Type",
+      "description": "Displays measurement values clearly.\nSupports multiple input devices.\nEasy navigation and setup.",
+      "image": "/images/Digital-Display-Unit.webp",
+      "features": [],
+      "related": [9,10,11,12,14,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 17,
+      "name": "Digital Indicators",
+      "subtitle": "Machine Type",
+      "description": "Compact digital dial gauges.\nHigh accuracy and reliability.\nSuitable for industrial applications.",
+      "image": "/images/Digital-Indicators.webp",
+      "features": [],
+      "related": [9,10,11,12,13,15,16,17,18,19,20]
+    },
+
+    {
+      "id": 18,
+      "name": "Electronic Probes",
+      "subtitle": "Machine Type",
+      "description": "Easy maintenance probes with detachable cables.\nSuitable for harsh environments.\nFlexible and durable design.",
+      "image": "/images/Electronic-Probes.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,16,17,18,19,20]
+    },
+
+    {
+      "id": 19,
+      "name": "External Micrometers",
+      "subtitle": "Machine Type",
+      "description": "Lightweight micrometer for easy handling.\nHigh precision measurement.\nDurable and stable performance.",
+      "image": "/images/External-Micrometers.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,15,17,18,19,20]
+    },
+
+    {
+      "id": 20,
+      "name": "Internal Micrometers",
+      "subtitle": "Machine Type",
+      "description": "Self-centering internal micrometers.\nHigh accuracy and reliability.\nDesigned for depth measurement.",
+      "image": "/images/Internal-Micrometers.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,15,16,18,19,20]
+    },
+
+    {
+      "id": 21,
+      "name": "Measuring Stations",
+      "subtitle": "Machine Type",
+      "description": "Compact measuring station for workshops.\nHigh accuracy and reliability.\nSuitable for small parts measurement.",
+      "image": "/images/Measuring-Stations.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,15,16,17,19,20]
+    },
+
+    {
+      "id": 22,
+      "name": "Roughness Testers",
+      "subtitle": "Machine Type",
+      "description": "Portable roughness tester.\nBluetooth connectivity for wireless data.\nLong battery life and high performance.",
+      "image": "/images/Roughness-Testers.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,15,16,17,18,20]
+    },
+
+    {
+      "id": 23,
+      "name": "Test Indicators",
+      "subtitle": "Machine Type",
+      "description": "Lever-type dial test indicators.\nHigh precision measurement.\nRobust metal construction and durability.",
+      "image": "/images/Test-Indicators.webp",
+      "features": [],
+      "related": [9,10,11,12,13,14,15,16,17,18,19]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": 24,
+      "name": "ENCY Robot",
+      "subtitle": "ENCY Robot",
+      "image": "/images/ENCY Robot.webp",
+      "features": [],
+      "related": [25,26,27,28,29,30,31,32,33,34,35]
+    },
+    {
+      "id": 25,
+      "name": "External axes support",
+      "subtitle": "External axes support",
+      "image": "/images/External axes support.webp",
+      "features": [],
+      "related": [24,26,27,28,29,30,31,32,33,34,35]
+    },
+    {
+      "id": 26,
+      "name": "Full robotic cell",
+      "subtitle": "Machine Type",
+      "image": "/images/Full robotic cell.webp",
+      "features": [],
+      "related": [24,25,27,28,29,30,31,32,33,34,35]
+    },
+    {
+      "id": 27,
+      "name": "Generate toolpaths",
+      "subtitle": "Generate toolpaths",
+      "image": "/images/Generate toolpaths.webp",
+      "features": [],
+      "related": [24,25,26,28,29,30,31,32,33,34,35]
+    },
+    {
+      "id": 28,
+      "name": "Handle Singularities",
+      "subtitle": "Handle Singularities",
+      "image": "/images/Handle Singularities.webp",
+      "features": [],
+      "related": [24,25,26,27,29,30,31,32,33,34,35]
+    },
+    {
+      "id": 29,
+      "name": "Postprocess and verify",
+      "subtitle": "Postprocess and verify",
+      "image": "/images/Postprocess and verify.webp",
+      "features": [],
+      "related": [24,25,26,27,28,30,31,32,33,34,35]
+    },
+    {
+      "id": 30,
+      "name": "Robot Kinematics Management",
+      "subtitle": "Robot Kinematics Management",
+      "image": "/images/Robot Kinematics Management.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,31,32,33,34,35]
+    },
+    {
+      "id": 31,
+      "name": "Simple toolpath calculation",
+      "subtitle": "Simple toolpath calculation",
+      "image": "/images/Simple toolpath calculation.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,32,33,34,35]
+    },
+    {
+      "id": 32,
+      "name": "robot1",
+      "subtitle": "robot1",
+      "image": "/images/robot1.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,31,33,34,35]
+    },
+    {
+      "id": 33,
+      "name": "Quality Master",
+      "subtitle": "Machine Type",
+      "image": "/images/Simulate full robotic cell.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,31,32,34,35]
+    },
+    {
+      "id": 34,
+      "name": "Quality Master",
+      "subtitle": "Machine Type",
+      "image": "/images/State-of-art UI.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,31,32,33,35]
+    },
+    {
+      "id": 35,
+      "name": "Technology simulation",
+      "subtitle": "Technology simulation",
+      "image": "/images/Technology simulation.webp",
+      "features": [],
+      "related": [24,25,26,27,28,29,30,31,32,33,34]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": 36,
+      "name": "",
+      "subtitle": "",
+      "image": "/images/image-005.webp",
+      "features": [],
+      "related": [37,38]
+    },
+    {
+      "id": 37,
+      "name": "QMT_QMS",
+      "subtitle": "QMT_QMS",
+      "image": "/images/QMT_QMS.webp",
+      "features": [],
+      "related": [36,38]
+    },
+    {
+      "id": 38,
+      "name": "quality-master",
+      "subtitle": "quality-master",
+      "image": "/images/quality-master.webp",
+      "features": [],
+      "related": [36,37]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": 39,
+      "name": "Air Dryers",
+      "subtitle": "Air Dryers",
+      "image": "/images/air-dryers.webp",
+      "features": [],
+      "related": []
+    }
+
+  ]
+}

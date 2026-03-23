@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Products</title>
+
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+<nav class="container nav">
+
+  <!-- LOGO -->
+  <a href="/index.html">
+    <img src="/images/logo.webp" alt="logo" width="150" height="50"  fetchpriority="high"
+  decoding="async">
+  </a>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- NAV LINKS -->
+  <ul class="nav-links" id="navLinks">
+
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+
+     <!-- PRODUCTS -->
+    <li class="dropdown">
+
+  <div class="nav-item">
+    <a href="/pages/product.html">Products</a>
+    <span class="arrow-toggle">▼</span>
+  </div>
+
+  <ul class="dropdown-menu">
+    <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+    <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+    <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+    <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
+    <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+  </ul>
+
+</li>
+
+    <li><a href="/pages/application.html">Application</a></li>
+
+
+      <!-- ZG -->
+    <li class="dropdown">
+
+  <div class="nav-item">
+    <a href="/pages/zg-technology.html">ZG Technology</a>
+    <span class="arrow-toggle">▼</span>
+  </div>
+
+  <ul class="dropdown-menu">
+    <li><a href="#">Atlaskan</a></li>
+    <li><a href="#">Cerescan</a></li>
+    <li><a href="#">Hyperscan</a></li>
+    <li><a href="#">Marvelscan</a></li>
+    <li><a href="#">Rigelscan</a></li>
+    <li><a href="#">RigelScan Super</a></li>
+  </ul>
+
+</li>
+
+
+    <li><a href="/pages/contect.html">Contact</a></li>
+
+    <!-- MOBILE BUTTON -->
+    <li class="mobile-btn">
+      <button class="btn red">Get Quote</button>
+    </li>
+
+  </ul>
+
+  <!-- DESKTOP BUTTON -->
+  <button class="btn red desktop-btn">Get Quote</button>
+
+</nav>
+</header>
+
+<main class="container">
+
+<section class="prod-wrapper">
+
+  <h2 class="prod-heading">Our Products</h2>
+
+    <div class="prod-wrapper-inner">
+
+  <div class="prod-grid">
+
+    <!-- 1 -->
+    <div class="prod-item">
+      <img src="/images/vicivision.webp" class="prod-img"  loading="lazy" decoding="async">
+      <div class="prod-bottom">
+        <h3 class="prod-title">VICIVISION</h3>
+        <button class="prod-btn">View</button>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="prod-item">
+      <img src="/images/tesa.webp" class="prod-img"  loading="lazy" decoding="async">
+      <div class="prod-bottom">
+        <h3 class="prod-title">TESA</h3>
+        <button class="prod-btn">View</button>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="prod-item">
+      <img src="/images/quality-master.webp" class="prod-img"  loading="lazy" decoding="async">
+      <div class="prod-bottom">
+        <h3 class="prod-title">Quality Master</h3>
+        <button class="prod-btn">View</button>
+      </div>
+    </div>
+
+    <!-- EMPTY -->
+    <div></div>
+
+    <!-- 4 -->
+    <div class="prod-item">
+      <img src="/images/i-vision.webp" class="prod-img"  loading="lazy" decoding="async">
+      <div class="prod-bottom">
+        <h3 class="prod-title">I-Vision</h3>
+        <button class="prod-btn">View</button>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="prod-item">
+      <img src="/images/air-dryers.webp" class="prod-img"  loading="lazy" decoding="async">
+      <div class="prod-bottom">
+        <h3 class="prod-title">Air Dryers</h3>
+        <button class="prod-btn">View</button>
+      </div>
+    </div>
+
+    <!-- EMPTY -->
+    <div></div>
+
+  </div>
+
+    </div>
+
+</section>
+</main>
+<!----------------------------------footer page -------------------------->
+<footer class="footer">
+
+  <div class="container footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-col">
+
+      <!-- ✅ LOGO FIX -->
+      <img src="/images/logo.webp" class="footer-logo-img" alt="Logo"  loading="lazy" decoding="async">
+
+      <p>
+        Advanced SMT, AI and Automation solutions for modern industries.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+     <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About Us</a></li>
+        <li><a href="/pages/zg-technology.html">ZG-Technology</a></li>
+        <li><a href="/pages/application.html">Application</a></li>
+        <li><a href="/pages/product.html">Products</a></li>
+        <li><a href="/pages/contect.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="footer-col">
+      <h3>Products</h3>
+     <ul>
+        <li><a href="/pages/about-products.html?id=1">Vicivision</a></li>
+        <li><a href="/pages/about-products.html?id=2">Tesa</a></li>
+        <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
+        <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+
+      <!-- ✅ ADDRESS FIX -->
+      <p>
+        Address: Office No. 3, Basement Floor,<br>
+        C-23, Sector 63 Rd,<br>
+        Noida
+      </p>
+
+      <p>Phone: 088009 69667</p>
+      <p>Email: info@trinityhitech.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Trinity Hi-Tech</p>
+  </div>
+
+</footer>
+<script src="/js/script.js" defer></script>
+
+</body>
+</html>

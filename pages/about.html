@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us</title>
+
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+
+<header>
+<nav class="container nav">
+
+  <!-- LOGO -->
+  <a href="/index.html">
+    <img src="/images/logo.webp" alt="logo" width="150" height="50" fetchpriority="high"
+  decoding="async">
+  </a>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- NAV LINKS -->
+  <ul class="nav-links" id="navLinks">
+
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+
+    <!-- PRODUCTS -->
+    <li class="dropdown">
+
+  <div class="nav-item">
+    <a href="/pages/product.html">Products</a>
+    <span class="arrow-toggle">▼</span>
+  </div>
+
+  <ul class="dropdown-menu">
+    <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+    <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+    <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+    <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
+    <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+  </ul>
+
+</li>
+
+    <li><a href="/pages/application.html">Application</a></li>
+
+
+      <!-- ZG -->
+    <li class="dropdown">
+
+  <div class="nav-item">
+    <a href="/pages/zg-technology.html">ZG Technology</a>
+    <span class="arrow-toggle">▼</span>
+  </div>
+
+  <ul class="dropdown-menu">
+    <li><a href="#">Atlaskan</a></li>
+    <li><a href="#">Cerescan</a></li>
+    <li><a href="#">Hyperscan</a></li>
+    <li><a href="#">Marvelscan</a></li>
+    <li><a href="#">Rigelscan</a></li>
+    <li><a href="#">RigelScan Super</a></li>
+  </ul>
+
+</li>
+
+
+    <li><a href="/pages/contect.html">Contact</a></li>
+
+    <!-- MOBILE BUTTON -->
+    <li class="mobile-btn">
+      <button class="btn red">Get Quote</button>
+    </li>
+
+  </ul>
+
+  <!-- DESKTOP BUTTON -->
+  <button class="btn red desktop-btn">Get Quote</button>
+
+</nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="abt-hero" style="background-image:url('/images/about-hero.webp')">
+  <div class="abt-wrap">
+    <div class="abt-hero-content">
+      <h1>About Us</h1>
+      <p>Home / About Us</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="abt-about">
+  <div class="abt-wrap abt-about-flex">
+
+    <!-- LEFT IMAGE -->
+    <div class="abt-about-img">
+      <!-- 👇 Yaha apni image lagana -->
+      <img src="/images/about-about.webp" alt="About Image" loading="eager"
+fetchpriority="high">
+    </div>
+
+    <!-- RIGHT TEXT -->
+    <div class="abt-about-text">
+      <h2>Who We Are</h2>
+     <p>
+Trinity Hi-Tech is a trusted leader in electronics manufacturing,
+delivering advanced SMT, AI, and automation solutions to enhance
+production efficiency and quality worldwide. With years of industry
+experience, we are committed to innovation, reliability, and providing
+cutting-edge solutions that help businesses grow and succeed in a
+competitive global market.
+</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MISSION ================= -->
+<section class="abt-mission">
+  <div class="abt-wrap">
+
+    <h2 class="abt-title">Our Mission & Values</h2>
+
+    <div class="abt-mission-grid">
+
+      <!-- CARD -->
+      <div class="abt-mission-card">
+        <i class="fas fa-lightbulb abt-icon"></i>
+        <h3>Innovation</h3>
+        <p>Driving technology for smarter solutions.</p>
+      </div>
+
+      <div class="abt-mission-card">
+        <i class="fas fa-shield-alt abt-icon"></i>
+        <h3>Quality</h3>
+        <p>Ensuring reliability in every product.</p>
+      </div>
+
+      <div class="abt-mission-card">
+        <i class="fas fa-handshake abt-icon"></i>
+        <h3>Customer Focus</h3>
+        <p>Building long-term partnerships.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section class="abt-achieve">
+  <div class="abt-wrap">
+
+    <h2 class="abt-title">Our Achievements</h2>
+
+    <div class="abt-achieve-grid">
+
+      <div class="abt-achieve-card">
+        <i class="fas fa-calendar-alt abt-icon"></i>
+        <h3>20+</h3>
+        <p>Years</p>
+      </div>
+
+      <div class="abt-achieve-card">
+        <i class="fas fa-users abt-icon"></i>
+        <h3>500+</h3>
+        <p>Clients</p>
+      </div>
+
+      <div class="abt-achieve-card">
+        <i class="fas fa-tasks abt-icon"></i>
+        <h3>1000+</h3>
+        <p>Projects</p>
+      </div>
+
+      <div class="abt-achieve-card">
+        <i class="fas fa-star abt-icon"></i>
+        <h3>99%</h3>
+        <p>Satisfaction</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ================= TEAM ================= -->
+<section class="abt-team">
+  <div class="abt-wrap">
+
+    <h2 class="abt-title">Meet Our Team</h2>
+
+    <div class="abt-team-grid">
+
+      <div class="abt-team-card">
+        <img src="/images/team1.webp" loading="lazy" decoding="async">
+        <h4>Rajesh Sharma</h4>
+        <p>CEO</p>
+      </div>
+
+      <div class="abt-team-card">
+        <img src="/images/team2.webp" loading="lazy" decoding="async">
+        <h4>Anil Mehta</h4>
+        <p>Director</p>
+      </div>
+
+      <div class="abt-team-card">
+        <img src="/images/team3.webp" loading="lazy" decoding="async">
+        <h4>Sunil Jain</h4>
+        <p>Manager</p>
+      </div>
+
+      <div class="abt-team-card">
+        <img src="/images/team4.webp" loading="lazy" decoding="async">
+        <h4>Priya Patel</h4>
+        <p>Support</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+ <!----------------------------------footer page -------------------------->
+<footer class="footer">
+
+  <div class="container footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-col">
+
+      <!-- ✅ LOGO FIX -->
+      <img src="/images/logo.webp" class="footer-logo-img" alt="Logo" loading="lazy" decoding="async">
+
+      <p>
+        Advanced SMT, AI and Automation solutions for modern industries.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+     <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About Us</a></li>
+        <li><a href="/pages/zg-technology.html">ZG-Technology</a></li>
+        <li><a href="/pages/application.html">Application</a></li>
+        <li><a href="/pages/product.html">Products</a></li>
+        <li><a href="/pages/contect.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="footer-col">
+      <h3>Products</h3>
+       <ul>
+        <li><a href="/pages/about-products.html?id=1">Vicivision</a></li>
+        <li><a href="/pages/about-products.html?id=2">Tesa</a></li>
+        <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
+        <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+
+      <!-- ✅ ADDRESS FIX -->
+      <p>
+        Address: Office No. 3, Basement Floor,<br>
+        C-23, Sector 63 Rd,<br>
+        Noida
+      </p>
+
+      <p>Phone: 088009 69667</p>
+      <p>Email: info@trinityhitech.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Trinity Hi-Tech</p>
+  </div>
+
+</footer>
+
+<script src="/js/script.js" defer></script>
+
+</body>
+</html>
