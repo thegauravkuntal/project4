@@ -28,55 +28,64 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <header>
 <nav class="container nav">
 
-<a href="/index.html" class="logo">
-<img src="/images/logo.webp"
-alt="logo"
-width="150"
-height="50">
-</a>
+  <!-- LOGO -->
+  <a href="/index.html" class="logo">
+    <img src="/images/logo.webp"
+         alt="logo"
+         width="150"
+         height="50"
+         fetchpriority="high"
+         decoding="async">
+  </a>
 
-<div class="hamburger" onclick="toggleMenu()">
-<span></span>
-<span></span>
-<span></span>
-</div>
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
-<ul class="nav-links" id="navLinks">
+  <!-- NAV LINKS -->
+  <ul class="nav-links" id="navLinks">
 
-<li><a href="/index.html">Home</a></li>
+    <li><a href="/index.html">Home</a></li>
 
-<li><a href="/pages/about.html">About</a></li>
+    <li><a href="/pages/about.html">About</a></li>
 
-<li class="dropdown">
+    <!-- PRODUCTS -->
+    <li class="dropdown">
 
-<div class="nav-item">
-<a href="/pages/product.html">Products</a>
-<span class="arrow-toggle">▼</span>
-</div>
+      <div class="nav-item">
+        <a href="/pages/product.html">Products</a>
+        <span class="arrow-toggle">▼</span>
+      </div>
 
-<ul class="dropdown-menu">
-<li><a href="#">VICIVISION</a></li>
-<li><a href="#">TESA</a></li>
-<li><a href="#">ENCY ROBOT</a></li>
-<li><a href="#">QUALITY MASTER</a></li>
-<li><a href="#">ZG TECHNOLOGY</a></li>
-</ul>
+      <ul class="dropdown-menu">
+        <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+        <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+        <li><a href="/pages/ency-robot.html">ENCY Robot</a></li>
+        <li><a href="/pages/quality-master.html">QUALITY MASTER</a></li>
+        <li><a href="/pages/zg-technology.html">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/air-dryers.html">Air Dryers</a></li>
+      </ul>
 
-</li>
+    </li>
 
-<li><a href="/pages/application.html">Application</a></li>
+    <!-- APPLICATION -->
+    <li><a href="/pages/application.html">Application</a></li>
 
-<li><a href="/pages/contect.html">Contact</a></li>
+    <!-- CONTACT -->
+    <li><a href="/pages/contect.html">Contact</a></li>
 
-<li class="mobile-btn">
-<button class="btn red">Get Quote</button>
-</li>
+    <!-- MOBILE BUTTON -->
+    <li class="mobile-btn">
+      <button class="btn red">Get Quote</button>
+    </li>
 
-</ul>
+  </ul>
 
-<button class="btn red desktop-btn">
-Get Quote
-</button>
+  <!-- DESKTOP BUTTON -->
+  <button class="btn red desktop-btn">Get Quote</button>
 
 </nav>
 </header>

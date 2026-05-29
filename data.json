@@ -21,64 +21,7 @@
       "related": [12,13,14,15,16,17,18,19,20,21,22,23]
     },
 
-    {
-  "id": 4,
-  "name": "QUALITY MASTER",
-  "subtitle": "About QUALITY MASTER",
-  "image": "/images/partner1.webp",
-  "features": [],
-  "related": [36,37,38]
-},
-
-    {
-      "id": 5,
-      "name": "A",
-      "subtitle": "About Air Dryers",
-      "description": "These products are perfectly designed by a team of our highly talented personnel making use of supreme class raw material.\nTypical application of these air dryers is along with CMMs and Machine Tools.\nThe entire array of products is widely noticed for their high performance, less maintenance, reliability, corrosion resistance and longer service life.",
-      "image": "/images/partner5.webp",
-      "features": [],
-      "related": [39]
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
     {
       "id": 6,
       "name": "Prima Series",
@@ -109,55 +52,6 @@
   "related": [1,6,7]
 },
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -282,75 +176,7 @@
   "image": "/images/Test-Indicators.webp",
   "features": [],
   "related": [12,13,14,15,16,17,18,19,20,21,22]
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-      "id": 36,
-      "name": "",
-      "subtitle": "",
-      "image": "/images/image-005.webp",
-      "features": [],
-      "related": [37,38]
-    },
-    {
-      "id": 37,
-      "name": "QMT_QMS",
-      "subtitle": "QMT_QMS",
-      "image": "/images/QMT_QMS.webp",
-      "features": [],
-      "related": [36,38]
-    },
-    {
-      "id": 38,
-      "name": "quality-master",
-      "subtitle": "quality-master",
-      "image": "/images/quality-master.webp",
-      "features": [],
-      "related": [36,37]
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-      "id": 39,
-      "name": "Air Dryers",
-      "subtitle": "Air Dryers",
-      "image": "/images/air-dryers.webp",
-      "features": [],
-      "related": []
-    }
+}
 
   ]
 }
