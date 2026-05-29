@@ -31,9 +31,13 @@
 <nav class="container nav">
 
   <!-- LOGO -->
-  <a href="/index.html">
-    <img src="/images/logo.webp" alt="logo" width="150" height="50" fetchpriority="high"
-  decoding="async">
+  <a href="/index.html" class="logo">
+    <img src="/images/logo.webp"
+         alt="logo"
+         width="150"
+         height="50"
+         fetchpriority="high"
+         decoding="async">
   </a>
 
   <!-- HAMBURGER -->
@@ -47,49 +51,32 @@
   <ul class="nav-links" id="navLinks">
 
     <li><a href="/index.html">Home</a></li>
+
     <li><a href="/pages/about.html">About</a></li>
 
-
-      <!-- PRODUCTS -->
+    <!-- PRODUCTS -->
     <li class="dropdown">
 
-  <div class="nav-item">
-    <a href="/pages/product.html">Products</a>
-    <span class="arrow-toggle">▼</span>
-  </div>
+      <div class="nav-item">
+        <a href="/pages/product.html">Products</a>
+        <span class="arrow-toggle">▼</span>
+      </div>
 
-  <ul class="dropdown-menu">
-    <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
-    <li><a href="/pages/about-products.html?id=2">TESA</a></li>
-    <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
-    <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
-    <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
-  </ul>
+      <ul class="dropdown-menu">
+        <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+        <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+        <li><a href="/pages/ency-robot.html">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">QUALITY MASTER</a></li>
+        <li><a href="/pages/zg-technology.html">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/air-dryers.html">Air Dryers</a></li>
+      </ul>
 
-</li>
+    </li>
 
+    <!-- APPLICATION -->
     <li><a href="/pages/application.html">Application</a></li>
 
-
-      <!-- ZG -->
-    <li class="dropdown">
-
-  <div class="nav-item">
-    <a href="/pages/zg-technology.html">ZG Technology</a>
-    <span class="arrow-toggle">▼</span>
-  </div>
-
-  <ul class="dropdown-menu">
-    <li><a href="#">Atlaskan</a></li>
-    <li><a href="#">Cerescan</a></li>
-    <li><a href="#">Hyperscan</a></li>
-    <li><a href="#">Marvelscan</a></li>
-    <li><a href="#">Rigelscan</a></li>
-    <li><a href="#">RigelScan Super</a></li>
-  </ul>
-
-</li>
-
+    <!-- CONTACT -->
     <li><a href="/pages/contect.html">Contact</a></li>
 
     <!-- MOBILE BUTTON -->
@@ -104,18 +91,59 @@
 
 </nav>
 </header>
-<!-- ================= HERO ================= -->
-<section class="hero">
-<img src="/images/home-hero.webp" alt="hero" class="hero-bg" loading="eager" fetchpriority="high">
 
-<div class="hero-content">
-<h1>Advanced 3D Scanning & Automation</h1>
-<p>Leading Provider of AI & SMT Solutions</p>
-<button class="btn blue">Explore</button>
-</div>
+
+<!-- ================= HERO SLIDER ================= -->
+
+<section class="hero">
+
+  <div class="hero-slider" id="heroSlider">
+
+    <div class="hero-slide">
+      <img src="/images/vicivision.webp"
+           alt="VICIVISION"
+           class="hero-bg">
+    </div>
+
+    <div class="hero-slide">
+      <img src="/images/ZG Technology - 3D Handheld Scanners.webp"
+           alt="ZG TECHNOLOGY"
+           class="hero-bg">
+    </div>
+
+    <div class="hero-slide">
+      <img src="/images/ENCY Robot.webp"
+           alt="ENCY"
+           class="hero-bg">
+    </div>
+
+    <div class="hero-slide">
+      <img src="/images/tesa.webp"
+           alt="TESA"
+           class="hero-bg">
+    </div>
+
+    <div class="hero-slide">
+      <img src="/images/quality-master.webp"
+           alt="QUALITY MASTER"
+           class="hero-bg">
+    </div>
+
+  </div>
+
+  <div class="hero-content">
+
+    <h1>Advanced 3D Scanning & Automation</h1>
+
+    <p>Leading Provider of AI & SMT Solutions</p>
+
+    <button class="btn-blue">
+      Explore
+    </button>
+
+  </div>
 
 </section>
-
 <!-- ================= ABOUT ================= -->
 <section class="about container">
 
@@ -133,165 +161,235 @@ With partners across India in all major industrial hubs, we can serve you locall
 <!-- ================= PRODUCTS ================= -->
 <section class="products container">
 
-<h2 class="section-title">Our Products</h2>
+  <h2 class="section-title">
+    Our Products
+  </h2>
 
-<div class="product-grid">
+  <div class="product-grid">
 
-  <!-- CARD 1 -->
-  <div class="product-card">
-    <img src="/images/4. Measuring-Instruments.webp" alt="" loading="lazy" decoding="async">
-    <h3>VICIVISION</h3>
+    <!-- CARD 1 -->
+    <div class="product-card">
+
+      <img src="/images/vicivision.webp"
+           alt="VICIVISION"
+           loading="lazy"
+           decoding="async">
+
+      <h3>VICIVISION</h3>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="product-card">
+
+      <img src="/images/ZG Technology - 3D Handheld Scanners.webp"
+           alt="ZG TECHNOLOGY"
+           loading="lazy"
+           decoding="async">
+
+      <h3>ZG TECHNOLOGY</h3>
+
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="product-card">
+
+      <img src="/images/ENCY Robot.webp"
+           alt="ENCY"
+           loading="lazy"
+           decoding="async">
+
+      <h3>ENCY</h3>
+
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="product-card">
+
+      <img src="/images/tesa.webp"
+           alt="TESA"
+           loading="lazy"
+           decoding="async">
+
+      <h3>TESA</h3>
+
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="product-card">
+
+      <img src="/images/quality-master.webp"
+           alt="QUALITY MASTER"
+           loading="lazy"
+           decoding="async">
+
+      <h3>QUALITY MASTER</h3>
+
+    </div>
+
   </div>
-
-  <!-- CARD 2 -->
-  <div class="product-card">
-    <img src="/images/07.30073_ap01.webp" alt="" loading="lazy" decoding="async">
-    <h3>TESA</h3>
-  </div>
-
-  <!-- CARD 3 -->
-  <div class="product-card">
-    <img src="/images/ENCY Robot.webp" alt="" loading="lazy" decoding="async">
-    <h3>ENCY Robot</h3>
-  </div>
-
-  <!-- CARD 4 -->
-  <div class="product-card">
-    <img src="/images/Prima-Series.webp" alt="" loading="lazy" decoding="async">
-    <h3>Asanamu Giken</h3>
-  </div>
-
-  <!-- CARD 5 -->
-  <div class="product-card">
-    <img src="/images/X-Series.webp" alt="" loading="lazy" decoding="async">
-    <h3>Air Dryers</h3>
-  </div>
-
-  <!-- CARD 6 -->
-  <div class="product-card">
-    <img src="/images/vicivision.webp" alt="" loading="lazy" decoding="async">
-    <h3>Hyperscan</h3>
-  </div>
-
-  <!-- CARD 7 -->
-  <div class="product-card">
-    <img src="/images/ZG Technology - 3D Handheld Scanners.webp" alt="" loading="lazy" decoding="async">
-    <h3>Marvelscan</h3>
-  </div>
-
-  <!-- CARD 8 -->
-  <div class="product-card">
-    <img src="/images/Techno-Series.webp" alt="" loading="lazy" decoding="async">
-    <h3>Rigelscan</h3>
-  </div>
-
-</div>
 
 </section>
 
 
+<!-- ================= 3D SCANNERS ================= -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ================= ZG ================= -->
 <section class="scanner-section container">
 
-<h2 class="section-title">3D Scanners</h2>
+  <h2 class="section-title">
+    3D Scanners
+  </h2>
 
-<div class="scanner-grid">
+  <div class="scanner-grid">
 
-  <!-- CARD 1 -->
-  <div class="scanner-card">
-    <div class="img-box">
-      <img src="/images/6C1A1307.webp" alt=""  loading="lazy" decoding="async">
+    <!-- CARD 1 -->
+    <div class="scanner-card">
+
+      <div class="img-box">
+
+        <img src="/images/hyperscan.webp"
+             alt="HyperScan"
+             loading="lazy"
+             decoding="async">
+
+      </div>
+
+      <h3>HyperScan</h3>
+
+      <button class="btn blue">
+        View Details
+      </button>
+
     </div>
-    <h3>Hyperscan</h3>
-    <button class="btn blue">View Details</button>
-  </div>
 
-  <!-- CARD 2 -->
-  <div class="scanner-card">
-    <div class="img-box">
-      <img src="/images/6C1A1389.webp" alt="" loading="lazy" decoding="async">
+    <!-- CARD 2 -->
+    <div class="scanner-card">
+
+      <div class="img-box">
+
+        <img src="/images/CereScan 03.webp"
+             alt="CereScan SE"
+             loading="lazy"
+             decoding="async">
+
+      </div>
+
+      <h3>CereScan SE</h3>
+
+      <button class="btn blue">
+        View Details
+      </button>
+
     </div>
-    <h3>Marvelscan</h3>
-    <button class="btn blue">View Details</button>
-  </div>
 
-  <!-- CARD 3 -->
-  <div class="scanner-card">
-    <div class="img-box">
-      <img src="/images/6C1A3946.webp" alt="" loading="lazy" decoding="async">
+    <!-- CARD 3 -->
+    <div class="scanner-card">
+
+      <div class="img-box">
+
+        <img src="/images/RigelScan.webp"
+             alt="RigelScan Elite"
+             loading="lazy"
+             decoding="async">
+
+      </div>
+
+      <h3>RigelScan Elite</h3>
+
+      <button class="btn blue">
+        View Details
+      </button>
+
     </div>
-    <h3>Rigelscan</h3>
-    <button class="btn blue">View Details</button>
-  </div>
 
-</div>
+    <!-- CARD 4 -->
+    <div class="scanner-card">
+
+      <div class="img-box">
+
+        <img src="/images/RigelScan Super.webp"
+             alt="RigelScan Super"
+             loading="lazy"
+             decoding="async">
+
+      </div>
+
+      <h3>RigelScan Super</h3>
+
+      <button class="btn blue">
+        View Details
+      </button>
+
+    </div>
+
+  </div>
 
 </section>
 
-
-
-
-    <!-------------------------------------partner section  -------------------------------------->
+ <!-------------------------------------partner section  -------------------------------------->
 <section class="partners">
+
   <div class="container partners-container">
 
-    <!-- LEFT -->
-    <div class="partners-left">
-      <img src="/images/Tesa Gold medal.webp" alt="Certificate" loading="lazy" decoding="async">
-    </div>
-
-    <!-- RIGHT -->
+    <!-- FULL WIDTH -->
     <div class="partners-right">
+
       <h2>Our Partners</h2>
 
       <div class="slider">
+
         <div class="slide-track" id="track">
 
-          <img src="/images/partner1.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner2.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner3.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner4.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner5.webp"  loading="lazy" decoding="async">
+          <img src="/images/partner1.webp"
+               loading="lazy"
+               decoding="async">
 
-          <!-- duplicate -->
-          <img src="/images/partner6.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner1.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner2.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner3.webp"  loading="lazy" decoding="async">
-          <img src="/images/partner4.webp"  loading="lazy" decoding="async">
+          <img src="/images/partner2.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner3.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner4.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner5.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner6.webp"
+               loading="lazy"
+               decoding="async">
+
+          <!-- DUPLICATE -->
+          <img src="/images/partner1.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner2.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner3.webp"
+               loading="lazy"
+               decoding="async">
+
+          <img src="/images/partner4.webp"
+               loading="lazy"
+               decoding="async">
 
         </div>
+
       </div>
+
     </div>
 
   </div>
+
 </section>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -348,18 +446,6 @@ With partners across India in all major industrial hubs, we can serve you locall
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!----------------------------------footer page -------------------------->
 <footer class="footer">
 
@@ -382,8 +468,6 @@ With partners across India in all major industrial hubs, we can serve you locall
       <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/pages/about.html">About Us</a></li>
-        <li><a href="/pages/zg-technology.html">ZG-Technology</a></li>
-        <li><a href="/pages/application.html">Application</a></li>
         <li><a href="/pages/product.html">Products</a></li>
         <li><a href="/pages/contect.html">Contact Us</a></li>
       </ul>
@@ -396,8 +480,8 @@ With partners across India in all major industrial hubs, we can serve you locall
         <li><a href="/pages/about-products.html?id=1">Vicivision</a></li>
         <li><a href="/pages/about-products.html?id=2">Tesa</a></li>
         <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
-        <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
-        <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+        <li><a href="/pages/about-products.html?id=4">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/about-products.html?id=5">QUALITY MASTER</a></li>
       </ul>
     </div>
 
@@ -407,9 +491,7 @@ With partners across India in all major industrial hubs, we can serve you locall
 
       <!-- ✅ ADDRESS FIX -->
       <p>
-        Address: Office No. 3, Basement Floor,<br>
-        C-23, Sector 63 Rd,<br>
-        Noida
+        Address: Office No. G-03, D-184, Sector 63, Noida - 201301
       </p>
 
       <p>Phone: 088009 69667</p>

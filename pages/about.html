@@ -20,9 +20,13 @@
 <nav class="container nav">
 
   <!-- LOGO -->
-  <a href="/index.html">
-    <img src="/images/logo.webp" alt="logo" width="150" height="50" fetchpriority="high"
-  decoding="async">
+  <a href="/index.html" class="logo">
+    <img src="/images/logo.webp"
+         alt="logo"
+         width="150"
+         height="50"
+         fetchpriority="high"
+         decoding="async">
   </a>
 
   <!-- HAMBURGER -->
@@ -36,49 +40,31 @@
   <ul class="nav-links" id="navLinks">
 
     <li><a href="/index.html">Home</a></li>
+
     <li><a href="/pages/about.html">About</a></li>
 
     <!-- PRODUCTS -->
     <li class="dropdown">
 
-  <div class="nav-item">
-    <a href="/pages/product.html">Products</a>
-    <span class="arrow-toggle">▼</span>
-  </div>
+      <div class="nav-item">
+        <a href="/pages/product.html">Products</a>
+        <span class="arrow-toggle">▼</span>
+      </div>
 
-  <ul class="dropdown-menu">
-    <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
-    <li><a href="/pages/about-products.html?id=2">TESA</a></li>
-    <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
-    <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
-    <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
-  </ul>
+      <ul class="dropdown-menu">
+        <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+        <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+        <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">QUALITY MASTER</a></li>
+        <li><a href="/pages/about-products.html?id=5">ZG TECHNOLOGY</a></li>
+      </ul>
 
-</li>
+    </li>
 
+    <!-- APPLICATION -->
     <li><a href="/pages/application.html">Application</a></li>
 
-
-      <!-- ZG -->
-    <li class="dropdown">
-
-  <div class="nav-item">
-    <a href="/pages/zg-technology.html">ZG Technology</a>
-    <span class="arrow-toggle">▼</span>
-  </div>
-
-  <ul class="dropdown-menu">
-    <li><a href="#">Atlaskan</a></li>
-    <li><a href="#">Cerescan</a></li>
-    <li><a href="#">Hyperscan</a></li>
-    <li><a href="#">Marvelscan</a></li>
-    <li><a href="#">Rigelscan</a></li>
-    <li><a href="#">RigelScan Super</a></li>
-  </ul>
-
-</li>
-
-
+    <!-- CONTACT -->
     <li><a href="/pages/contect.html">Contact</a></li>
 
     <!-- MOBILE BUTTON -->
@@ -105,30 +91,128 @@
 </section>
 
 <!-- ================= ABOUT ================= -->
-<section class="abt-about">
-  <div class="abt-wrap abt-about-flex">
+<!-- ================= WHO WE ARE SECTION ================= -->
 
-    <!-- LEFT IMAGE -->
-    <div class="abt-about-img">
-      <!-- 👇 Yaha apni image lagana -->
-      <img src="/images/about-about.webp" alt="About Image" loading="eager"
-fetchpriority="high">
+<section class="who-we-are">
+
+  <div class="who-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="who-left">
+
+      <span class="who-tag">
+        WHO WE ARE
+      </span>
+
+      <h2>
+        Who We Are
+      </h2>
+
+      <div class="red-line"></div>
+
+      <p>
+        Established in the year 2016, TRINITY HITECH SOLUTIONS
+        with its core experience in the field of Metrology offers
+        one shop window to cater your measurement needs right from
+        very basic equipment like Calipers to high end Form &
+        Optical Measuring equipment.
+      </p>
+
+      <p>
+        Trinity Product Portfolio covers wide range of smart
+        solutions in measurement, machining, and process control
+        for manufacturing sector.
+      </p>
+
+      <p>
+        With partners across India in all major industrial hubs,
+        we can serve you locally.
+      </p>
+
+      <button class="who-btn">
+        Learn More About Us
+      </button>
+
     </div>
 
-    <!-- RIGHT TEXT -->
-    <div class="abt-about-text">
-      <h2>Who We Are</h2>
-     <p>
-Trinity Hi-Tech is a trusted leader in electronics manufacturing,
-delivering advanced SMT, AI, and automation solutions to enhance
-production efficiency and quality worldwide. With years of industry
-experience, we are committed to innovation, reliability, and providing
-cutting-edge solutions that help businesses grow and succeed in a
-competitive global market.
-</p>
+    <!-- CENTER CARDS -->
+    <div class="who-middle">
+
+      <div class="middle-line"></div>
+
+      <div class="middle-dot dot1"></div>
+      <div class="middle-dot dot2"></div>
+      <div class="middle-dot dot3"></div>
+      <div class="middle-dot dot4"></div>
+
+      <!-- CARD -->
+      <div class="middle-card">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-bullseye"></i>
+        </div>
+
+        <div>
+          <h4>Advanced</h4>
+          <p>Metrology Solutions</p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="middle-card">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-handshake"></i>
+        </div>
+
+        <div>
+          <h4>Trusted</h4>
+          <p>Industrial Partnerships</p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="middle-card">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+
+        <div>
+          <h4>Smart</h4>
+          <p>Automation & Machining</p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="middle-card">
+
+        <div class="icon-box">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div>
+          <h4>Pan India</h4>
+          <p>Support Network</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="who-right">
+
+      <img src="/images/about-about.webp"
+           alt="about">
+
     </div>
 
   </div>
+
 </section>
 
 <!-- ================= MISSION ================= -->
@@ -162,10 +246,6 @@ competitive global market.
 
   </div>
 </section>
-
-
-
-
 
 
 
@@ -207,46 +287,6 @@ competitive global market.
 </section>
 
 
-
-
-<!-- ================= TEAM ================= -->
-<section class="abt-team">
-  <div class="abt-wrap">
-
-    <h2 class="abt-title">Meet Our Team</h2>
-
-    <div class="abt-team-grid">
-
-      <div class="abt-team-card">
-        <img src="/images/team1.webp" loading="lazy" decoding="async">
-        <h4>Rajesh Sharma</h4>
-        <p>CEO</p>
-      </div>
-
-      <div class="abt-team-card">
-        <img src="/images/team2.webp" loading="lazy" decoding="async">
-        <h4>Anil Mehta</h4>
-        <p>Director</p>
-      </div>
-
-      <div class="abt-team-card">
-        <img src="/images/team3.webp" loading="lazy" decoding="async">
-        <h4>Sunil Jain</h4>
-        <p>Manager</p>
-      </div>
-
-      <div class="abt-team-card">
-        <img src="/images/team4.webp" loading="lazy" decoding="async">
-        <h4>Priya Patel</h4>
-        <p>Support</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
  <!----------------------------------footer page -------------------------->
 <footer class="footer">
 
@@ -266,11 +306,9 @@ competitive global market.
     <!-- QUICK LINKS -->
     <div class="footer-col">
       <h3>Quick Links</h3>
-     <ul>
+      <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/pages/about.html">About Us</a></li>
-        <li><a href="/pages/zg-technology.html">ZG-Technology</a></li>
-        <li><a href="/pages/application.html">Application</a></li>
         <li><a href="/pages/product.html">Products</a></li>
         <li><a href="/pages/contect.html">Contact Us</a></li>
       </ul>
@@ -279,12 +317,12 @@ competitive global market.
     <!-- PRODUCTS -->
     <div class="footer-col">
       <h3>Products</h3>
-       <ul>
+      <ul>
         <li><a href="/pages/about-products.html?id=1">Vicivision</a></li>
         <li><a href="/pages/about-products.html?id=2">Tesa</a></li>
         <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
-        <li><a href="/pages/about-products.html?id=4">Asanamu Giken</a></li>
-        <li><a href="/pages/about-products.html?id=5">Air Dryers</a></li>
+        <li><a href="/pages/about-products.html?id=4">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/about-products.html?id=5">QUALITY MASTER</a></li>
       </ul>
     </div>
 
@@ -294,9 +332,7 @@ competitive global market.
 
       <!-- ✅ ADDRESS FIX -->
       <p>
-        Address: Office No. 3, Basement Floor,<br>
-        C-23, Sector 63 Rd,<br>
-        Noida
+        Address: Office No. G-03, D-184, Sector 63, Noida - 201301
       </p>
 
       <p>Phone: 088009 69667</p>

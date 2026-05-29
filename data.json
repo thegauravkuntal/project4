@@ -5,7 +5,7 @@
       "id": 1,
       "name": "VICIVISION",
       "subtitle": "About VICIVISION",
-      "description": "VICIVISION manufactures optical, non-contact shaft measuring machines.\nWe serve a wide range of industries.\nHigh speed measurement improves productivity.",
+      "description": "VICIVISION manufactures advanced optical, non-contact shaft measuring machines for modern manufacturing industries. High-speed measurement systems improve productivity, accuracy and quality control across multiple industrial sectors.",
       "image": "/images/partner3.webp",
       "features": [],
       "related": [6,7,8,9,10,11]
@@ -22,29 +22,20 @@
     },
 
     {
-      "id": 3,
-      "name": "ENCY Robot",
-      "subtitle": "ENCY Robot",
-      "image": "/images/partner5.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,31,32,33,34,35]
-    },
-
-    {
-      "id": 4,
-      "name": "Asanamu Giken Go",
-      "subtitle": "Asanamu Giken Go",
-      "image": "/images/partner6.webp",
-      "features": [],
-      "related": [36,37,38]
-    },
+  "id": 4,
+  "name": "QUALITY MASTER",
+  "subtitle": "About QUALITY MASTER",
+  "image": "/images/partner1.webp",
+  "features": [],
+  "related": [36,37,38]
+},
 
     {
       "id": 5,
-      "name": "Air Dryers",
+      "name": "A",
       "subtitle": "About Air Dryers",
       "description": "These products are perfectly designed by a team of our highly talented personnel making use of supreme class raw material.\nTypical application of these air dryers is along with CMMs and Machine Tools.\nThe entire array of products is widely noticed for their high performance, less maintenance, reliability, corrosion resistance and longer service life.",
-      "image": "/images/partner2.webp",
+      "image": "/images/partner5.webp",
       "features": [],
       "related": [39]
     },
@@ -93,384 +84,205 @@
       "name": "Prima Series",
       "subtitle": "Prima Series",
       "description": "The optical measuring machine for all CNC lathes.\nSimplicity allows each operator to control the production process at any time.\nThe aim is to provide high measurement standards in a new competitive and compact machine.\nDetect hundreds of measurements in seconds on all turned and ground parts.\nThe measuring fields are from 60 to 140 mm diameter and 300 to 600 mm length.\n\nStatic measures:\n- diameter\n- length\n- angle\n- radius\n- chamfer\n\nDynamic measures:\n- coaxiality\n- runout\n- circularity\n- cylindricity\n- taper",
-      "image": "/images/M609 Techno HD.webp",
+      "image": "/images/Prima-Series.webp",
       "features": [],
       "related": [1,7,8]
     },
 
     {
-      "id": 7,
-      "name": "Techno Series",
-      "subtitle": "Techno Series",
-      "description": "Optical measuring devices for micro parts, dental implants and watch components.\nHigh resolution detection of smallest details.\nSupports coaxiality, cylindricity, roundness and thread measurements.",
-      "image": "/images/Techno-Series.webp",
-      "features": [],
-      "related": [1,6,8]
-    },
+  "id": 7,
+  "name": "Techno Series",
+  "subtitle": "Techno Series",
+  "description": "This measuring machine range is designed to adapt to current and future manufacturing demands. The modular range of the Techno series can provide the most suitable machine for your production.\n\nFrom 40 to 250 mm in diameter, and from 300 to 2000 mm in length.\n\nVICIVISION offers the evolution of the profile projector, a compact and quick optical comparator for shopfloor use.\n\nSpecial Applications:\n- Crankshaft\n- Camshaft\n- Turbine Wheel\n- Tactile Probing System\n- Confocal System for spline measurement",
+  "image": "/images/Techno-Series.webp",
+  "features": [],
+  "related": [1,6,8]
+},
 
     {
-      "id": 8,
-      "name": "X Series",
-      "subtitle": "X Series",
-      "description": "Advanced optical measuring devices.\nHigh accuracy for micro parts.\nUsed in dental and watch industry.",
-      "image": "/images/vicivision.webp",
-      "features": [],
-      "related": [1,6,7]
-    },
-    {
-      "id": 9,
-      "name": "",
-      "subtitle": "",
-      "image": "/images/2.webp",
-      "features": [],
-      "related": [1,7,8]
-    },
+  "id": 8,
+  "name": "X Series",
+  "subtitle": "X Series",
+  "description": "MTL X5, MTL X10 and MTL X360 are optical measuring devices specifically designed to measure micro-mechanical parts, dental implants, watch parts and micro-parts in general.\n\nThese high resolution machines detect even the smallest details.\n\nMeasuring instruments designed for every need:\n- Coaxiality\n- Cylindricity\n- Axial and radial run-out\n- Roundness\n- Thread measurements\n- Nut measurements",
+  "image": "/images/X-Series.webp",
+  "features": [],
+  "related": [1,6,7]
+},
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   {
+  "id": 12,
+  "name": "1D Height Gauges",
+  "subtitle": "Machine Type",
+  "description": "TESA 1D height gauge with its refined panel and its easily-accessible software is typically used in workshops. It focuses on the main functions necessary for quick measurements and immediate access to the results.\n\nIts optical reading system offers users greater accuracy than its magnetic system counterpart (TESA-HITE MAGNA) without having to compromise on its long-term reliability.",
+  "image": "/images/1D-Height-Gauges.webp",
+  "features": [],
+  "related": [13,14,15,16,17,18,19,20,21,22,23]
+},
+
+   {
+  "id": 13,
+  "name": "2D Height Gauges",
+  "subtitle": "Machine Type",
+  "description": "This high-end instrument is intuitive due to a clear and refined user philosophy of its embedded software and allows measurements in 1 or 2 coordinate directions. Universal machine developed for workshops and for laboratories that can be integrated as close as possible to the user.\n\nIndeed, the robustness of its cast iron base and frame makes it a reliable instrument that guarantees an excellent repeatability and precision in any kind of conditions. With the exception of the 1D basis functions, it is equipped with advanced functions (angle, programming, tolerancing, 2D, ...) and turns it into a metrological “multi-user” asset, that replaces the most conventional measuring tools.",
+  "image": "/images/2D-Height-Gauges.webp",
+  "features": [],
+  "related": [12,14,15,16,17,18,19,20,21,22,23]
+},
 
     {
-      "id": 10,
-      "name": "",
-      "subtitle": "",
-      "image": "/images/3.webp",
-      "features": [],
-      "related": [1,6,8]
-    },
+  "id": 14,
+  "name": "Bluetooth Connectivity",
+  "subtitle": "Machine Type",
+  "description": "The TESA TLC-BLE wireless Bluetooth® emitter allows to connect measuring instruments to a computer.\n\nThanks to the free software TESA DATA-VIEWER, data can be easily collected, analyzed and stored, avoiding transcription errors and ensuring a perfect traceability.",
+  "image": "/images/Bluetooth-connectivity.webp",
+  "features": [],
+  "related": [12,13,15,16,17,18,19,20,21,22,23]
+},
+
+   {
+  "id": 15,
+  "name": "Digital Caliper",
+  "subtitle": "Machine Type",
+  "description": "In harsh environments such as workshops, the instruments are often subjected to all kinds of substances such as oil and water. This is why TESA digital instruments incorporate well-proven materials and offer a high degree of protection.\n\nThey guarantee longevity, robustness and high-performance measurements on instruments that are often used on a daily and continuous basis.",
+  "image": "/images/Digital-Caliper.webp",
+  "features": [],
+  "related": [12,13,14,16,17,18,19,20,21,22,23]
+},
+
+   {
+  "id": 16,
+  "name": "Digital Display Unit",
+  "subtitle": "Machine Type",
+  "description": "The TWIN-T20 digital display allows two measured values to be displayed simultaneously, both on the production floor and in the test laboratory.\n\nMultiple inputs allow you to connect TESA probes and a wide range of measuring devices via the integrated USB ports. Intuitive navigation makes it easy to set measurement tolerances and choose the type of display to optimize reading for users.",
+  "image": "/images/Digital-Display-Unit.webp",
+  "features": [],
+  "related": [12,13,14,15,17,18,19,20,21,22,23]
+},
+
+   {
+  "id": 17,
+  "name": "Digital Indicators",
+  "subtitle": "Machine Type",
+  "description": "The new DIALTRONIC COMPACT range of digital dial gauges enables measuring applications to be carried out with a minimum of space thanks to the 45 mm diameter dial.\n\nThese dial gauges are ideal for measurements at various positions or integrated in machines.",
+  "image": "/images/Digital-Indicators.webp",
+  "features": [],
+  "related": [12,13,14,15,16,18,19,20,21,22,23]
+},
+
+   {
+  "id": 18,
+  "name": "Electronic Probes",
+  "subtitle": "Machine Type",
+  "description": "TESA INDUCTIVE PROBES WITH DETACHABLE CABLE allow users to maintain their measuring stations quicker and cheaper.\n\nBy unscrewing the probe from its cable, changing operations are easier and take less time and resources.\n\nParticularly suitable for multi-gauging installations, the resistant and flexible cable combined with a robust connector allows the use of TESA probes in harsh environments.",
+  "image": "/images/Electronic-Probes.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,19,20,21,22,23]
+},
+
+   {
+  "id": 19,
+  "name": "External Micrometers",
+  "subtitle": "Machine Type",
+  "description": "Without compromising the stability of the instrument, the weight of the TESA micrometer is reduced to a minimum in order to make it easier to handle, especially when measuring with one hand.\n\nThe functional shape of the instrument, the smooth running of the micrometer screw, the secure locking and the friction ratchet also contribute to this. The robustness of the micrometer ensures that its accuracy is maintained over time.",
+  "image": "/images/External-Micrometers.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,18,20,21,22,23]
+},
+
+   {
+  "id": 20,
+  "name": "Internal Micrometers",
+  "subtitle": "Machine Type",
+  "description": "Self-centering and self-aligning internal micrometers. The high-precision thread machined into the measuring cone, combined with the measuring bolts specially arranged to provide 3-line contact, make them the only micrometers in the world that respect the ABBE principle.\n\nMeasure depth, reliably.",
+  "image": "/images/Internal-Micrometers.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,18,19,21,22,23]
+},
+
+   {
+  "id": 21,
+  "name": "Measuring Stations",
+  "subtitle": "Machine Type",
+  "description": "The measuring station TESA μ-HITE is far more than a height gauge. This compact, robust, yet highly accurate instrument is designed for measurement operations in the workshop, close to machining centres, as well as more controlled and secure inspection sites such as laboratories.\n\nWith its measuring range of 100 mm, this “all-in-one” station is particularly suitable for controlling small parts close to the production. It can even replace the use of conventional 1D probes which have a very limited measuring range and are often dedicated to a single application.",
+  "image": "/images/Measuring-Stations.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,18,19,20,22,23]
+},
+
+   {
+  "id": 22,
+  "name": "Roughness Testers",
+  "subtitle": "Machine Type",
+  "description": "The TESA TWIN-SURF is a compact, portable roughness tester, compatible with any articulated support and powered by a rechargeable battery that enables long-term self-sufficiency.\n\nIts monochrome OLED display optimises power consumption and ensures high contrast for clear reading. Simplified ergonomics with 3 buttons on the top allows the easy definition of measurement parameters, adjustment of tolerances and starting of the measurement.\n\nThe Bluetooth® version allows wireless communication with a PC, tablet or smartphone equipped with the same software.",
+  "image": "/images/Roughness-Testers.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,18,19,20,21,23]
+},
 
     {
-      "id": 11,
-      "name": "",
-      "subtitle": "",
-      "image": "/images/4.webp",
-      "features": [],
-      "related": [1,6,7]
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-      "id": 12,
-      "name": "1D Height Gauges",
-      "subtitle": "Machine Type",
-      "description": "TESA 1D height gauge used in workshops.\nProvides quick measurements with high accuracy.\nReliable optical reading system.",
-      "image": "/images/1D-Height-Gauges.webp",
-      "features": [],
-      "related": [10,11,12,13,14,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 13,
-      "name": "2D Height Gauges",
-      "subtitle": "Machine Type",
-      "description": "High-end instrument for 1D and 2D measurements.\nRobust design ensures precision and repeatability.\nAdvanced measurement functions included.",
-      "image": "/images/2D-Height-Gauges.webp",
-      "features": [],
-      "related": [9,11,12,13,14,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 14,
-      "name": "Bluetooth Connectivity",
-      "subtitle": "Machine Type",
-      "description": "Wireless Bluetooth system for connecting instruments.\nData can be collected, analyzed and stored easily.\nEnsures perfect traceability.",
-      "image": "/images/Bluetooth-connectivity.webp",
-      "features": [],
-      "related": [9,10,12,13,14,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 15,
-      "name": "Digital Caliper",
-      "subtitle": "Machine Type",
-      "description": "Durable measuring tool for harsh environments.\nResistant to oil and water.\nEnsures long life and high accuracy.",
-      "image": "/images/Digital-Caliper.webp",
-      "features": [],
-      "related": [9,10,11,13,14,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 16,
-      "name": "Digital Display Unit",
-      "subtitle": "Machine Type",
-      "description": "Displays measurement values clearly.\nSupports multiple input devices.\nEasy navigation and setup.",
-      "image": "/images/Digital-Display-Unit.webp",
-      "features": [],
-      "related": [9,10,11,12,14,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 17,
-      "name": "Digital Indicators",
-      "subtitle": "Machine Type",
-      "description": "Compact digital dial gauges.\nHigh accuracy and reliability.\nSuitable for industrial applications.",
-      "image": "/images/Digital-Indicators.webp",
-      "features": [],
-      "related": [9,10,11,12,13,15,16,17,18,19,20]
-    },
-
-    {
-      "id": 18,
-      "name": "Electronic Probes",
-      "subtitle": "Machine Type",
-      "description": "Easy maintenance probes with detachable cables.\nSuitable for harsh environments.\nFlexible and durable design.",
-      "image": "/images/Electronic-Probes.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,16,17,18,19,20]
-    },
-
-    {
-      "id": 19,
-      "name": "External Micrometers",
-      "subtitle": "Machine Type",
-      "description": "Lightweight micrometer for easy handling.\nHigh precision measurement.\nDurable and stable performance.",
-      "image": "/images/External-Micrometers.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,15,17,18,19,20]
-    },
-
-    {
-      "id": 20,
-      "name": "Internal Micrometers",
-      "subtitle": "Machine Type",
-      "description": "Self-centering internal micrometers.\nHigh accuracy and reliability.\nDesigned for depth measurement.",
-      "image": "/images/Internal-Micrometers.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,15,16,18,19,20]
-    },
-
-    {
-      "id": 21,
-      "name": "Measuring Stations",
-      "subtitle": "Machine Type",
-      "description": "Compact measuring station for workshops.\nHigh accuracy and reliability.\nSuitable for small parts measurement.",
-      "image": "/images/Measuring-Stations.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,15,16,17,19,20]
-    },
-
-    {
-      "id": 22,
-      "name": "Roughness Testers",
-      "subtitle": "Machine Type",
-      "description": "Portable roughness tester.\nBluetooth connectivity for wireless data.\nLong battery life and high performance.",
-      "image": "/images/Roughness-Testers.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,15,16,17,18,20]
-    },
-
-    {
-      "id": 23,
-      "name": "Test Indicators",
-      "subtitle": "Machine Type",
-      "description": "Lever-type dial test indicators.\nHigh precision measurement.\nRobust metal construction and durability.",
-      "image": "/images/Test-Indicators.webp",
-      "features": [],
-      "related": [9,10,11,12,13,14,15,16,17,18,19]
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-      "id": 24,
-      "name": "ENCY Robot",
-      "subtitle": "ENCY Robot",
-      "image": "/images/ENCY Robot.webp",
-      "features": [],
-      "related": [25,26,27,28,29,30,31,32,33,34,35]
-    },
-    {
-      "id": 25,
-      "name": "External axes support",
-      "subtitle": "External axes support",
-      "image": "/images/External axes support.webp",
-      "features": [],
-      "related": [24,26,27,28,29,30,31,32,33,34,35]
-    },
-    {
-      "id": 26,
-      "name": "Full robotic cell",
-      "subtitle": "Machine Type",
-      "image": "/images/Full robotic cell.webp",
-      "features": [],
-      "related": [24,25,27,28,29,30,31,32,33,34,35]
-    },
-    {
-      "id": 27,
-      "name": "Generate toolpaths",
-      "subtitle": "Generate toolpaths",
-      "image": "/images/Generate toolpaths.webp",
-      "features": [],
-      "related": [24,25,26,28,29,30,31,32,33,34,35]
-    },
-    {
-      "id": 28,
-      "name": "Handle Singularities",
-      "subtitle": "Handle Singularities",
-      "image": "/images/Handle Singularities.webp",
-      "features": [],
-      "related": [24,25,26,27,29,30,31,32,33,34,35]
-    },
-    {
-      "id": 29,
-      "name": "Postprocess and verify",
-      "subtitle": "Postprocess and verify",
-      "image": "/images/Postprocess and verify.webp",
-      "features": [],
-      "related": [24,25,26,27,28,30,31,32,33,34,35]
-    },
-    {
-      "id": 30,
-      "name": "Robot Kinematics Management",
-      "subtitle": "Robot Kinematics Management",
-      "image": "/images/Robot Kinematics Management.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,31,32,33,34,35]
-    },
-    {
-      "id": 31,
-      "name": "Simple toolpath calculation",
-      "subtitle": "Simple toolpath calculation",
-      "image": "/images/Simple toolpath calculation.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,32,33,34,35]
-    },
-    {
-      "id": 32,
-      "name": "robot1",
-      "subtitle": "robot1",
-      "image": "/images/robot1.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,31,33,34,35]
-    },
-    {
-      "id": 33,
-      "name": "Quality Master",
-      "subtitle": "Machine Type",
-      "image": "/images/Simulate full robotic cell.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,31,32,34,35]
-    },
-    {
-      "id": 34,
-      "name": "Quality Master",
-      "subtitle": "Machine Type",
-      "image": "/images/State-of-art UI.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,31,32,33,35]
-    },
-    {
-      "id": 35,
-      "name": "Technology simulation",
-      "subtitle": "Technology simulation",
-      "image": "/images/Technology simulation.webp",
-      "features": [],
-      "related": [24,25,26,27,28,29,30,31,32,33,34]
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "id": 23,
+  "name": "Test Indicators",
+  "subtitle": "Machine Type",
+  "description": "These lever-type dial test indicators are especially intended for use on the shop floor or in the inspection room. Ideally suited for comparative measurements on a surface plate, for instance.\n\n- Determine form, shape and position deviations as well as axial and runout errors\n- Bidirectional measuring with automatic reversal inside the movement\n- Continuous clockwise pointer rotation providing error-free reading\n- Insensitive to magnetic fields\n- Very low measuring force\n- Exceptionally robust with full-metal construction",
+  "image": "/images/Test-Indicators.webp",
+  "features": [],
+  "related": [12,13,14,15,16,17,18,19,20,21,22]
+},
 
 
 

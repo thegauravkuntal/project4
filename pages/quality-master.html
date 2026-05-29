@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quality Master | Trinity Hi-Tech</title>
+
+<link rel="preload"
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+as="style">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+<header>
+<nav class="container nav">
+
+  <!-- LOGO -->
+  <a href="/index.html" class="logo">
+    <img src="/images/logo.webp"
+         alt="logo"
+         width="150"
+         height="50"
+         fetchpriority="high"
+         decoding="async">
+  </a>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- NAV LINKS -->
+  <ul class="nav-links" id="navLinks">
+
+    <li><a href="/index.html">Home</a></li>
+
+    <li><a href="/pages/about.html">About</a></li>
+
+    <!-- PRODUCTS -->
+    <li class="dropdown">
+
+      <div class="nav-item">
+        <a href="/pages/product.html">Products</a>
+        <span class="arrow-toggle">▼</span>
+      </div>
+
+      <ul class="dropdown-menu">
+        <li><a href="/pages/about-products.html?id=1">VICIVISION</a></li>
+        <li><a href="/pages/about-products.html?id=2">TESA</a></li>
+        <li><a href="/pages/ency-robot.html">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">QUALITY MASTER</a></li>
+        <li><a href="/pages/zg-technology.html">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/air-dryers.html">Air Dryers</a></li>
+      </ul>
+
+    </li>
+
+    <!-- APPLICATION -->
+    <li><a href="/pages/application.html">Application</a></li>
+
+    <!-- CONTACT -->
+    <li><a href="/pages/contect.html">Contact</a></li>
+
+    <!-- MOBILE BUTTON -->
+    <li class="mobile-btn">
+      <button class="btn red">Get Quote</button>
+    </li>
+
+  </ul>
+
+  <!-- DESKTOP BUTTON -->
+  <button class="btn red desktop-btn">Get Quote</button>
+
+</nav>
+</header>
+<main class="qm-page-wrapper">
+
+    <!-- ================= ABOUT QUALITY MASTER ================= -->
+
+    <section class="qm-about-section">
+
+        <div class="qm-about-container">
+
+            <div class="qm-about-logo">
+
+                <img src="/images/partner1.webp"
+                alt="Quality Master">
+
+            </div>
+
+            <div class="qm-about-content">
+
+                <h1>About Quality Master</h1>
+
+                <p>
+                    "Quality Master" was created so that CMMs can be checked
+                    in a simple and easy way, even on a daily basis.
+                </p>
+
+                <p>
+                    The main feature of this product is that it allows
+                    measurement evaluation by surface, circular and
+                    cylindrical measurement of three-dimensionally
+                    arranged high-precision holes.
+                </p>
+
+                <p>
+                    In actual workpiece measurement, the orientation of
+                    the probe head does not stay in one direction.
+                    Measurement is performed using four directions of
+                    the probe head, enabling users to recognize
+                    attitude errors as well.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PRODUCT ================= -->
+
+   <section class="qm-product-section">
+
+    <div class="qm-product-container">
+
+        <div class="qm-product-card">
+
+            <div class="qm-product-image">
+
+                <img src="/images/quality-master.webp"
+                     alt="Quality Master">
+
+            </div>
+
+            <span class="qm-product-tag">
+                QUALITY MASTER
+            </span>
+
+            <h3>
+                Quality Master
+            </h3>
+
+            <a href="javascript:void(0)"
+               class="qm-read-more-btn"
+               onclick="toggleQualityMasterDetails()">
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+                READ MORE
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- DETAILS SECTION -->
+
+    <div class="qm-hidden-details" id="qualityMasterDetails">
+
+        <h2>Quality Master</h2>
+
+        <p>
+            "Quality Master" was created so that CMMs can be checked in a
+            simple and easy way, even on a daily basis. The main feature
+            of this product is that it allows measurement evaluation by
+            surface, circular, and cylindrical measurement of
+            three-dimensionally arranged high-precision holes.
+        </p>
+
+        <p>
+            In actual workpiece measurement, the orientation of the probe
+            head doesn’t stay in one direction. It is measured using the
+            four directions of probe head, enabling users to recognize
+            attitude error as well.
+        </p>
+
+        <h3>TRACEABILITY</h3>
+
+        <p>
+            Quality Master has achieved traceability with National Standards.
+            Inspection using our traceable, national standard-compliant
+            gauge assists you in reducing costs.
+        </p>
+
+        <h3>CUSTOMERS’ UTILIZATION EXAMPLES</h3>
+
+        <ul>
+
+            <li>
+                Use of CMMs in pre-start inspections.
+            </li>
+
+            <li>
+                Checking the accuracy of CMMs between regular and
+                periodic calibrations.
+            </li>
+
+            <li>
+                Clarification of adjustment and repair details in the
+                event of CMM problems.
+            </li>
+
+        </ul>
+
+        <h3>SPECIFICATION</h3>
+
+        <ul>
+
+            <li>
+                Made of low thermal expansion casting that is less
+                susceptible to temperature changes.
+            </li>
+
+            <li>
+                Simple and stable shape with 12 precision bushings
+                arranged in ideal positions.
+            </li>
+
+            <li>
+                Cylindrical shape with low concentration of stress,
+                high resistance to temperature change, vibration,
+                and shock.
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+</main>
+<footer class="footer">
+
+  <div class="container footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-col">
+
+      <!-- ✅ LOGO FIX -->
+      <img src="/images/logo.webp" class="footer-logo-img" alt="Logo" loading="lazy" decoding="async">
+
+      <p>
+        Advanced SMT, AI and Automation solutions for modern industries.
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About Us</a></li>
+        <li><a href="/pages/product.html">Products</a></li>
+        <li><a href="/pages/contect.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="footer-col">
+      <h3>Products</h3>
+      <ul>
+        <li><a href="/pages/about-products.html?id=1">Vicivision</a></li>
+        <li><a href="/pages/about-products.html?id=2">Tesa</a></li>
+        <li><a href="/pages/about-products.html?id=3">ENCY Robot</a></li>
+        <li><a href="/pages/about-products.html?id=4">ZG TECHNOLOGY</a></li>
+        <li><a href="/pages/about-products.html?id=5">QUALITY MASTER</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+
+      <!-- ✅ ADDRESS FIX -->
+      <p>
+        Address: Office No. G-03, D-184, Sector 63, Noida - 201301
+      </p>
+
+      <p>Phone: 088009 69667</p>
+      <p>Email: info@trinityhitech.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Trinity Hi-Tech</p>
+  </div>
+
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
