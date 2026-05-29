@@ -465,56 +465,119 @@ header.scrolled {
 
 
 /* ---------------------partner  SECTION ----------------------------- */
-.partners{
-  padding: 70px 0;
+/* ================= PARTNERS ================= */
 
+.partners {
+  background: #fff;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.partners-container {
+  width: 100%;
+}
+
+.partners-right h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #0a2d62;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+
+.slide-track img {
+  width: 180px;
+  height: 100px;
+  object-fit: contain;
+  flex-shrink: 0;
   background: #fff;
 }
 
-/* FULL WIDTH */
-.partners-right{
-  width: 100%;
+/* Animation */
 
-  text-align: center;
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-.partners-right h2{
-  font-size: 34px;
+/* ================= TABLET ================= */
 
-  margin-bottom: 40px;
+@media (max-width: 992px) {
+
+  .partners {
+    padding: 60px 0;
+  }
+
+  .partners-right h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+
+  .slide-track {
+    gap: 40px;
+  }
+
+  .slide-track img {
+    width: 150px;
+    height: 85px;
+  }
 }
 
-/* SLIDER */
-.slider{
-  overflow: hidden;
+/* ================= MOBILE ================= */
 
-  width: 100%;
+@media (max-width: 768px) {
+
+  .partners-right h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .slide-track {
+    gap: 35px;
+  }
+
+  .slide-track img {
+    width: 160px;
+    height: 90px;
+    object-fit: contain;
+  }
 }
+/* ================= SMALL MOBILE ================= */
 
-/* TRACK */
-.slide-track{
-  display: flex;
+@media (max-width: 480px) {
 
-  align-items: center;
+  .partners-right h2 {
+    font-size: 24px;
+  }
 
-  gap: 50px;
+  .slide-track {
+    gap: 20px;
+  }
 
-  width: max-content;
+  .slide-track img {
+    width: 100px;
+    height: 60px;
+  }
 }
-
-/* LOGOS */
-.slide-track img{
-  width: 170px;
-
-  height: 90px;
-
-  object-fit: contain;
-
-  opacity: 1;
-}
-
-
-
 
 
 
