@@ -22,34 +22,67 @@
     },
 
    
-    {
-      "id": 6,
-      "name": "Prima Series",
-      "subtitle": "Prima Series",
-      "description": "The optical measuring machine for all CNC lathes.\nSimplicity allows each operator to control the production process at any time.\nThe aim is to provide high measurement standards in a new competitive and compact machine.\nDetect hundreds of measurements in seconds on all turned and ground parts.\nThe measuring fields are from 60 to 140 mm diameter and 300 to 600 mm length.\n\nStatic measures:\n- diameter\n- length\n- angle\n- radius\n- chamfer\n\nDynamic measures:\n- coaxiality\n- runout\n- circularity\n- cylindricity\n- taper",
-      "image": "/images/Prima-Series.webp",
-      "features": [],
-      "related": [1,7,8]
-    },
+   {
+  "id": 6,
+  "name": "Prima Series",
+  "subtitle": "Prima Series",
 
-    {
+  "description": "The optical measuring machine for all CNC lathes.\n\nSimplicity allows each operator to control the production process at any time.\n\nThe aim is to provide high measurement standards in a new competitive and compact machine.\n\nDetect hundreds of measurements in seconds on all turned and ground parts.\n\nThe measuring fields of this new series are from 60 to 140 mm of diameter and from 300 to 600 mm of length.\n\nDETECTABLE MEASURES\n\nStatic Measures:\n• Diameter\n• Length\n• Angle\n• Radius\n• Chamfer\n\nDynamic Measures:\n• Coaxiality\n• Runout\n• Circularity\n• Cylindricity\n• Taper\n\nThreads:\n• Nominal Diameter\n• Pitch Diameter\n• Core Diameter\n• Crests Angle\n• Pitch\n• Roll Dimension\n\nNut Measurements:\n• Diameter\n• Asymmetry\n• Timing\n\nProfile Measurements:\n• DXF Comparison\n• DXF Export",
+
+  "image": "/images/Prima-Series.jpg",
+
+  "gallery": [
+    "/images/Prima-Series.jpg",
+    "/images/prima-part1.jpg",
+    "/images/prima-part2.jpg",
+    "/images/prima-part3.jpg"
+  ],
+
+  "features": [],
+
+  "related": [1,7,8]
+},
+
+   {
   "id": 7,
   "name": "Techno Series",
   "subtitle": "Techno Series",
-  "description": "This measuring machine range is designed to adapt to current and future manufacturing demands. The modular range of the Techno series can provide the most suitable machine for your production.\n\nFrom 40 to 250 mm in diameter, and from 300 to 2000 mm in length.\n\nVICIVISION offers the evolution of the profile projector, a compact and quick optical comparator for shopfloor use.\n\nSpecial Applications:\n- Crankshaft\n- Camshaft\n- Turbine Wheel\n- Tactile Probing System\n- Confocal System for spline measurement",
-  "image": "/images/Techno-Series.webp",
+
+  "description": "This measuring machine range is designed to adapt to current and future manufacturing demands.\n\nThe modular range of the Techno Series can provide the most suitable machine for your production requirements.\n\nFrom 40 mm to 180 mm in diameter and from 300 mm to 1250 mm in length, the Techno Series offers exceptional flexibility and precision for a wide variety of turned and ground components.\n\nVICIVISION offers the evolution of the profile projector, providing a compact and fast optical comparator specifically designed for shopfloor use.\n\nSPECIAL APPLICATIONS\n\n1. Crankshaft Measurement\n2. Camshaft Measurement\n3. Tactile Probing System\n4. Confocal System for Spline Measurement\n\nThe Techno Series combines high-speed optical inspection, advanced measurement technology, and user-friendly operation to ensure reliable quality control directly in the production environment.",
+
+  "image": "/images/M609 Techno HD.webp",
+
+  "gallery": [
+    "/images/M609 Techno HD.webp",
+    "/images/techno-part1.jpg",
+    "/images/techno-part2.jpg",
+    "/images/techno-part3.jpg"
+  ],
+
   "features": [],
-  "related": [1,6,8]
+
+  "related": [6,8]
 },
 
     {
   "id": 8,
   "name": "X Series",
   "subtitle": "X Series",
-  "description": "MTL X5, MTL X10 and MTL X360 are optical measuring devices specifically designed to measure micro-mechanical parts, dental implants, watch parts and micro-parts in general.\n\nThese high resolution machines detect even the smallest details.\n\nMeasuring instruments designed for every need:\n- Coaxiality\n- Cylindricity\n- Axial and radial run-out\n- Roundness\n- Thread measurements\n- Nut measurements",
-  "image": "/images/X-Series.webp",
+
+  "description": "MTL X5, MTL X10 and MTL X360 are optical measuring devices specifically designed to measure micro-mechanical parts, dental implants, watch components and micro-parts in general.\n\nThese high-resolution machines are capable of detecting even the smallest details with exceptional accuracy and repeatability.\n\nThe X Series has been developed for precision industries where quality control of miniature components is critical.\n\nThe advanced optical technology enables fast, non-contact measurement directly on the shop floor, reducing inspection time while maintaining high measurement standards.\n\nMEASUREMENT CAPABILITIES\n\n• Coaxiality\n• Cylindricity\n• Axial Run-Out\n• Radial Run-Out\n• Roundness\n• Thread Measurements\n• Nut Measurements\n\nThe X Series delivers reliable and highly accurate measurements for small and complex components, making it an ideal solution for medical, dental, watchmaking and precision engineering applications.",
+
+  "image": "/images/X-Series.jpg",
+
+  "gallery": [
+    "/images/X-Series.jpg",
+    "/images/x-part1.jpg",
+    "/images/x-part2.jpg",
+    "/images/x-part3.jpg"
+  ],
+
   "features": [],
-  "related": [1,6,7]
+
+  "related": [6,7]
 },
    
 

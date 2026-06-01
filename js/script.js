@@ -129,6 +129,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const relatedProducts = document.getElementById("relatedProducts");
 
+        const galleryThumbs = document.getElementById("galleryThumbs");
+
         if (!productName || !productDesc || !relatedProducts) {
 
           console.error("HTML ID missing ❌");
@@ -139,6 +141,27 @@ document.addEventListener("DOMContentLoaded", () => {
         // MAIN PRODUCT
 
         mainImage.src = product.image;
+
+        // PRODUCT GALLERY
+
+if(product.gallery && galleryThumbs){
+
+    let thumbsHTML = "";
+
+    product.gallery.forEach((img,index)=>{
+
+        thumbsHTML += `
+            <img
+                src="${img}"
+                class="${index === 0 ? 'active' : ''}"
+                onclick="changeMainImage(this,'${img}')"
+            >
+        `;
+
+    });
+
+    galleryThumbs.innerHTML = thumbsHTML;
+}
 
         mainImage.onerror = () => {
           mainImage.src = "/images/default.jpg";
@@ -176,28 +199,29 @@ document.addEventListener("DOMContentLoaded", () => {
           product.related.includes(p.id)
         );
 
-        relatedItems.forEach(item => {
+       relatedItems.forEach(item => {
 
-          relatedHTML += `
-            <div class="rel-card">
+  relatedHTML += `
+    <div class="rel-card">
 
-              <img src="${item.image}"
-                   onerror="this.src='/images/default.jpg'">
+      <img src="${item.image}"
+           alt="${item.name}"
+           onerror="this.src='/images/default.jpg'">
 
-              <div class="rel-bottom">
+      <div class="rel-bottom">
 
-                <span>${item.name}</span>
+        <span>${item.name}</span>
 
-                <button onclick="goToProduct(${item.id})">
-                  View
-                </button>
+        <button onclick="goToProduct(${item.id})">
+          → READ MORE
+        </button>
 
-              </div>
+      </div>
 
-            </div>
-          `;
+    </div>
+  `;
 
-        });
+});
 
         relatedProducts.innerHTML = relatedHTML;
 
@@ -281,4 +305,22 @@ function toggleAirDryerDetails(){
     .getElementById("airDryerDetails")
     .classList.toggle("show");
 
+}
+
+
+
+
+
+
+
+
+function changeMainImage(el,img){
+
+    document.getElementById("mainImage").src = img;
+
+    document
+      .querySelectorAll(".gallery-thumbs img")
+      .forEach(item => item.classList.remove("active"));
+
+    el.classList.add("active");
 }
